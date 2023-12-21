@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  background-image: url(./component/img.jpg);
+}
+.myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.8;
+}
+
+.container {
+  width: 100%;
+  margin: 0.5em auto;
+  background-color: rgba(249, 191, 59);
+  padding-top: 0.5em;
+}
+
+.grid {
+  display: grid;
+  margin-left: 0.5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.2em;
+  justify-content: center;
+}
